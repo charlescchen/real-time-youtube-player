@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.player-with-controls-div {
+    width: 65%;
+    float: left;
+}
+
+.chat-div {
+    width: 35%;
+    float: left;
+    height: 80vh;
+    padding-left: 10px;
+}
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider {
+    width: 100%;
+}
+
+.play-pause-button {
+    background-color: #04AA6D;
+    font-size: 15px;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.video-duration {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.player-controls-row {
+    margin-top: 10px;
+}
+
+.play-pause-progress-div {
+    width: 50%;
+    float: left;
+}
+
+.change-video-div {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.video-url-input {
+    width: 75%;
+    padding: 12px 8px;
+    margin-top: 5px;
+}
+
+.change-video-button {
+    background-color: #04AA6D;
+    font-size: 15px;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.chat-box {
+    height: 90%;
+    border: 2px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.chat-message-div {
+    border-bottom: 1px solid black;
+}
+
+.alert-message {
+    color: DodgerBlue;
+    padding: 0 10px;
+}
+
+.regular-message {
+    padding: 0 10px;
+}
+
+.chat-message-input {
+    width: 100%;
+    padding: 12px 8px;
+}
+
+.in-middle-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 95vh;
+}
